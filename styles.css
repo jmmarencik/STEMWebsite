@@ -1,0 +1,268 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: navy;
+}
+
+.nav-link:hover{
+  background-color: teal;
+  border-radius: 5px;
+}
+
+.navbar-custom{
+  background-color: navy;
+}
+
+.navbar-custom .nav-link{
+  font-size: 1.5em;
+
+}
+
+.navbar-brand{
+  font-family: Lemonada;
+}
+
+.col-lg-3{
+
+  background-color: navy;
+  color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  height: 15%;
+  margin: .5%;
+  padding: .5%;
+
+  border: none;
+}
+
+.col-lg-3:hover{
+  background-color: teal;
+  color: white;
+  top: 5px;
+
+}
+
+.col-lg-4{
+
+  background-color: lightgray;
+  color: darkslategray;
+
+  display: inline-block;
+  height: 15%;
+
+}
+
+.col-lg-4 h2  {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.col-lg-12{
+
+  background-color: navy;
+  color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  height: 20%;
+  margin: 1%;
+  padding: 1%;
+
+}
+
+.col-lg-12:hover{
+  background-color: teal;
+  color: white;
+  top: 5px;
+
+}
+
+.logo{
+  width: 15%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 1325px){
+  .logo{
+    width: 25%;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 800px){
+  .logo{
+    width: 50%;
+    border-radius: 5px;
+  }
+}
+
+.fas{
+  color: darkslategray;
+  font-size: 1em;
+}
+
+h1 .fas{
+  color: lightgray;
+  font-size: 1em;
+}
+
+.top-header h1 .fas{
+  color: darkslategray;
+  font-size: 1em;
+}
+
+.top-header{
+  background-color: lightgray;
+  display: block;
+  height: 50%;
+  width: 100%;
+  padding: 5% 7%;
+  text-align: center;
+}
+
+.header-content{
+  display: inline;
+  margin: 0 auto;
+}
+
+h3{
+  font-family: "calibri", "arial", "helvetica", sans-serif;
+  font-size: 2em;
+  padding: 1%;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+@media (max-width: 1325px){
+  h3{
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 1325px){
+  h1{
+    font-size: 1em;
+  }
+}
+
+.provided-by{
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: navy;
+  font-size: 3em;
+  color: lightgray;
+  display: inline-block;
+  width: 75%;
+  border-radius: 25%;
+}
+
+.provided-by h2{
+  color: lightgray;
+  text-align: left;
+  width: 25%;
+}
+
+.grade_level{
+  color: darkslategray;
+  padding-top: 10%;
+  font-size: 2.25em;
+}
+
+h2{
+  font-family: "calibri", "arial", "helvetica", sans-serif;
+  font-size: 3em;
+  padding: 2%;
+  font-weight: bold;
+}
+
+h1{
+  font-family: "Lemonada", "Arial", sans-serif;
+  font-size: 4.5em;
+  font-weight:bold;
+  padding-top: 5%;
+
+}
+
+.top-header h1{
+  padding-top: 0;
+  color: darkslategray;
+}
+
+#elementary{
+  color: lightgray;
+  font-size: 1em;
+  text-align: center;
+}
+
+#middle{
+  color: lightgray;
+  font-size: 1em;
+  text-align: center;
+}
+
+#high{
+  color: lightgray;
+  font-size: 1em;
+  text-align: center;
+}
+
+#eResources{
+  color: darkslategray;
+  background-color: lightgray;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  padding: 0 0 2% 0;
+}
+
+#mResources{
+  color: darkslategray;
+  background-color: lightgray;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  padding: 0 0 2% 0;
+}
+
+#hResources{
+  color:darkslategray;
+  background-color: lightgray;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  padding: 0 0 2% 0;
+}
+
+.link{
+  font-size: .75em;
+}
+
+.footer{
+  display: inline-block;
+  width: 100%;
+  margin-top: 2%;
+  padding-left: 5%;
+  background-color: lightgray;
+
+}
+.footer-quote{
+  width: 82.5%;
+  
+}
+
+
+.footer p{
+  padding-left: 1%;
+  font-size: 1.2em;
+}
